@@ -9,7 +9,7 @@ public class Main {
         System.out.print ("Введите срок кредитования : \t");
         int mounths = in.nextInt();
         System.out.print ("Введите процентную ставку : \t");
-        float percent = in.nextFloat();
+        double percent = in.nextFloat();
         System.out.print (": \n" + service.calculate (credit, mounths, percent));
     }
 }
